@@ -4,12 +4,10 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import {BrowserRouter as Router,Route,Routes,Navigate} from 'react-router-dom';
-import Product from './components/product/product';
-import Crowdfunding from './components/crowdfunding/crowdfunding';
 import Crowdfundingpage from './pages/productdetail';
 import CoursesPage from './pages/CoursesPage';
-import Navbar from './components/Navbar/navbar';
 import Loginpage from './pages/Login';
+import PreSignUpPage from './pages/PreSignUpPage';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -21,6 +19,8 @@ root.render(
 <Route path="/crowdfunding" element={<Crowdfundingpage/>} />
 <Route path="/courses" element={<CoursesPage/>} />
 <Route path="/login" element={<Loginpage/>} />
+<Route path="/signup" element={<PreSignUpPage/>} />
+
 
 
 </Routes>

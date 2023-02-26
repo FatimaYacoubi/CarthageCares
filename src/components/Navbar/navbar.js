@@ -6,6 +6,8 @@ import { FaCartPlus} from "react-icons/fa";
 import { Navbar} from 'react-bootstrap';
 import { Collapse} from 'reactstrap';
 import Example from './sidemenu';
+import { Link } from "react-router-dom";
+
 
 function Navbarr () {
    
@@ -17,28 +19,38 @@ function Navbarr () {
             <ul>
            
             
-                        <li >
+                        <li > <Link to="/">
                             <a className="nav_links" href='#id'>
                             HOME
-                            
-                            </a>
-                            <a className="nav_links" href='#id'>
+                          
+
+                            </a> </Link>
+                            <Link to="/shop">
+                            <a className="nav_links">
                             SHOP
                             
-                            </a> <a className="nav_links" href='#id'>
+                            </a> </Link>
+                            <Link to="/courses">
+
+                            <a className="nav_links" href='#id'>
                             COURSES
                             
-                            </a> 
-                           
+                            </a>  </Link>
+                            <Link to="/aboutus">
+
                              <a className="nav_links" href='#id'>
                             ABOUT US                            
-                            </a>
+                            </a> </Link>
                             <a>
                                </a>
+                               <Link to="/signup">
+
                             <a style={{marginLeft: '700px'}} className="navlinkmargin nav_links">
-SIGNUP                          </a>
-<a className="navlinkmargin nav_links">
-SIGNIN                        </a>
+SIGNUP                          </a> </Link>
+<Link to="/login">
+
+<a className="navlinkmargin nav_links"> 
+SIGNIN                        </a> </Link>
 <a className="nav-links" href='#id'>
                           </a>
                           
