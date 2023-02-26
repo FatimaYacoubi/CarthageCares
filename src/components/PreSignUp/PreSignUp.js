@@ -19,7 +19,6 @@ function PreSignUp() {
     <h3>Sign up as a Coach</h3>
     <img  src={Coach} alt="Coach " />
     
-    <Link to="/about"></Link>
 
     <h4>Coach</h4>
 

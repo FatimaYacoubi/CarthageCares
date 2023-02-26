@@ -8,6 +8,7 @@ import Crowdfundingpage from './pages/productdetail';
 import CoursesPage from './pages/CoursesPage';
 import Loginpage from './pages/Login';
 import PreSignUpPage from './pages/PreSignUpPage';
+import SignupPage from './pages/Signup';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -19,7 +20,8 @@ root.render(
 <Route path="/crowdfunding" element={<Crowdfundingpage/>} />
 <Route path="/courses" element={<CoursesPage/>} />
 <Route path="/login" element={<Loginpage/>} />
-<Route path="/signup" element={<PreSignUpPage/>} />
+<Route path="/presignup" element={<PreSignUpPage/>} />
+<Route path="/signup" element={<SignupPage/>} />
 
 
 
