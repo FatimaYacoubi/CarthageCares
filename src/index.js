@@ -9,6 +9,7 @@ import CoursesPage from './pages/CoursesPage';
 import Loginpage from './pages/Login';
 import PreSignUpPage from './pages/PreSignUpPage';
 import SignupPage from './pages/Signup';
+import SignUpPartner from './components/signup/signupPartner';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -22,9 +23,7 @@ root.render(
 <Route path="/login" element={<Loginpage/>} />
 <Route path="/presignup" element={<PreSignUpPage/>} />
 <Route path="/signup" element={<SignupPage/>} />
-
-
-
+<Route path="/signuppartner" element={<SignUpPartner/>} />
 </Routes>
 </Router>
 );

@@ -1,8 +1,8 @@
 import "../login/login.css"
 import video from "../HeroSection/pottery2.mp4"
 import Button from "../Button/button"
-function Signup() {
-  
+
+function SignUpPartner(){
     return(
         <div className='hero-container'>
         <video src={video} autoPlay loop muted />
@@ -25,4 +25,4 @@ function Signup() {
 
         </div>    )
 }
-export default Signup
+export default  SignUpPartner ;

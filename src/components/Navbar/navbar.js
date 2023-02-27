@@ -19,40 +19,35 @@ function Navbarr () {
             <ul>
            
             
-                        <li > <Link to="/">
-                            <a className="nav_links" href='#id'>
+                        <li > <Link className="nav_links"  to="/">
+                            
                             HOME
                           
 
-                            </a> </Link>
-                            <Link to="/shop">
-                            <a className="nav_links">
+                             </Link>
+                            <Link  className="nav_links" to="/shop">
+                           
                             SHOP
                             
-                            </a> </Link>
-                            <Link to="/courses">
+                             </Link>
+                            <Link to="/courses" className="nav_links">
 
-                            <a className="nav_links" href='#id'>
                             COURSES
                             
-                            </a>  </Link>
-                            <Link to="/aboutus">
+                             </Link>
+                            <Link to="/aboutus" className="nav_links">
 
-                             <a className="nav_links" href='#id'>
                             ABOUT US                            
-                            </a> </Link>
-                            <a>
-                               </a>
-                               <Link to="/presignup">
+                             </Link>
+                           
+                               <Link to="/presignup" style={{marginLeft: '700px'}}className="nav_links">
 
-                            <a style={{marginLeft: '700px'}} className="navlinkmargin nav_links">
-SIGNUP                          </a> </Link>
-<Link to="/login">
+SIGNUP                          </Link>
+<Link to="/login" className="navlinkmargin nav_links">
 
-<a className="navlinkmargin nav_links"> 
-SIGNIN                        </a> </Link>
-<a className="nav-links" href='#id'>
-                          </a>
+  
+SIGNIN                         </Link>
+
                           
 
                             

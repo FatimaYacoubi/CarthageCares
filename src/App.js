@@ -6,6 +6,7 @@ import Partenairec from './components/partenairescarousel/partenairec';
 import HeroSection from './components/HeroSection/HeroSection';
 import Products from './components/Products/products';
 import Crowdfunding from "./components/crowdfunding/crowdfunding";
+import SignUpPartner from './components/signup/signupPartner';
 
 function App() {
   return (
